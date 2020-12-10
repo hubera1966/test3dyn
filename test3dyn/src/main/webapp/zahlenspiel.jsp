@@ -44,7 +44,7 @@
 	<form action='<%=response.encodeURL("zahlenspiel.jsp")%>'> 
     <H1>Zahlenspiel</H1>
     <br>
-    guess <%= guess %>
+    <%-- guess <%= guess %> --%> 
     <% System.out.println( "guess = " + guess ); %>
     <% System.out.println( "counter = " + counter ); %>
     <% System.out.println( "number = " + number ); %>
