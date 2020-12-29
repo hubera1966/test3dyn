@@ -8,7 +8,7 @@
 <title>Hello World Java EE</title>
 </head>
 <body>
-    <h1>Hallo für ein Beispiel zu JSP and Servlets auf Amazon AWS !</h1>
+    <h1>Hallo für ein Beispiel zu JSP and Servlets auf Amazon AWS Hostname : <%= java.net.InetAddress.getLocalHost().getHostName() %></h1>
    
 <form action="HelloServlet" method="post">
     Bitte Namen eingeben : <input type="text" name="yourName" size="20">
