@@ -23,7 +23,7 @@ public class CustomerServlet extends HttpServlet {
 		String costPKG = request.getParameter("costPKG");
 
 	try{
-		File file = new File("xyz.txt");
+		File file = new File("/usr/share/nginx/html/xyz.txt");
 		FileWriter fstream = new FileWriter(file,true);
 	try (BufferedWriter out = new BufferedWriter(fstream)) {
 		out.write(customerName+" "+customerAddress+" "+telNo+" "+email+" "+costPKG);
