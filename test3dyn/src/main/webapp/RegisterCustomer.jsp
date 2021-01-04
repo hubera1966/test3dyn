@@ -21,6 +21,6 @@
         <input type="text" name="costPKG"> <br>
         <input type="submit" value="Register"> <br> <br>
 
-        <a href="/test3dyn/">Back</a>
+        <a href="/test3dyn/">Starteite</a>
         </form>
 </body>
