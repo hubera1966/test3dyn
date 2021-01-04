@@ -16,6 +16,8 @@
 </form>
 <br>
 <a href="/test3dyn/">Startseite</a>
+<br>
+<br>
 <a href="/test3dyn/RegisterCustomer.jsp">Register Customer</a>
 </body>
 </html>
