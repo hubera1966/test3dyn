@@ -7,6 +7,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.PrintWriter;
 
 @WebServlet("/link")
 
@@ -21,9 +22,9 @@ public class link extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		response.setContentType("text/html;charset=UTF-8");
-		ServletOutputStream out = response.getOutputStream();
-		out.print("<html><body>The file uploaded sucessfully. <a href=/test3dyn/index.jsp> Startseite </a></body></html>");
+	       PrintWriter writer = response.getWriter();
+	        writer.println("<html><a href=/test3dyn/index.jsp> Startseite </a></html>");
+	        writer.flush();
 	}
 
 	
