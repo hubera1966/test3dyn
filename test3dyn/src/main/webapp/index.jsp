@@ -19,5 +19,8 @@
 <br>
 <br>
 <a href="/test3dyn/RegisterCustomer.jsp">Register Customer</a>
+<br>
+<br>
+<a href="/test3dyn/upload.html">Datei hochladen</a>
 </body>
 </html>

@@ -24,7 +24,7 @@ public class FileUploadServlet extends HttpServlet {
     for (Part part : request.getParts()) {
       part.write("/usr/share/nginx/html/" + fileName);
     }
-    response.getWriter().print("The file uploaded sucessfully.");
+    response.getWriter().print("The file uploaded sucessfully. <a href=/test3dyn/index.jsp> Startseite </a>");
   }
 
 }
