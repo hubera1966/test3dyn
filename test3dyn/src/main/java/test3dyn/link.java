@@ -24,7 +24,7 @@ public class link extends HttpServlet {
 		
         response.setContentType ("text/html");
         PrintWriter writer = response.getWriter();
-	    writer.println("<html><body><a href=/test3dyn/index.jsp>Startseite</a></body></html>");
+	    writer.println("<html><body>Zurueck zur Startseite ....    <a href=/test3dyn/index.jsp>Startseite</a></body></html>");
 	    writer.flush();
 	}
 

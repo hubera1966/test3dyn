@@ -30,7 +30,7 @@ public class CustomerServlet extends HttpServlet {
 		out.newLine();
 	}
 	pw.println("<html>File is created successfully<br>");
-	pw.println("<a href=/test3dyn/test3dyn/index.jsp> Startseite </a></html>");
+	pw.println("<a href=/test3dyn/index.jsp> Startseite </a></html>");
 	}
 
 	catch (IOException e){
