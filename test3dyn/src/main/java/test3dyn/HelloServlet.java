@@ -32,10 +32,10 @@ public class HelloServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		String yourName = request.getParameter("yourName");
 		PrintWriter writer = response.getWriter();
-		writer.println("<h1>Hallo lieber " + yourName + "</h1>");
+		writer.println("<html><h1>Hallo lieber " + yourName + "</h1>");
 		System.out.println( "Name = " + yourName );
 		writer.println("<br>");
-		writer.println("Hier habe ich ein Zahlenspiel fuer dich ... <a href=/test3dyn/zahlenspiel.jsp> Zahlenspiel </a>");
+		writer.println("Hier habe ich ein Zahlenspiel fuer dich ... <a href=/test3dyn/zahlenspiel.jsp> Zahlenspiel </a></html>");
 		writer.close();
 	}
 

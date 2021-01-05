@@ -22,9 +22,10 @@ public class link extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-	       PrintWriter writer = response.getWriter();
-	        writer.println("<html><a href=/test3dyn/index.jsp> Startseite </a></html>");
-	        writer.flush();
+        response.setContentType ("text/html");
+        PrintWriter writer = response.getWriter();
+	    writer.println("<html><body><a href=/test3dyn/index.jsp>Startseite</a></body></html>");
+	    writer.flush();
 	}
 
 	
