@@ -1,6 +1,7 @@
 package test3dyn;
 
 import java.io.IOException;
+import javax.servlet.ServletOutputStream;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,8 +20,10 @@ public class link extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-		response.getWriter().print("The file uploaded sucessfully. <a href=/test3dyn/index.jsp> Startseite </a>");
+		
+		response.setContentType("text/html;charset=UTF-8");
+		ServletOutputStream out = response.getOutputStream();
+		out.print("<html><body>The file uploaded sucessfully. <a href=/test3dyn/index.jsp> Startseite </a></body></html>");
 	}
 
 	
