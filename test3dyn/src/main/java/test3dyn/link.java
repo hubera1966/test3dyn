@@ -20,7 +20,7 @@ public class link extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
-		response.getWriter().print("The file uploaded sucessfully. <a href='http://centosm.localdomain/test3dyn/index.jsp'> Startseite </a>");
+		response.getWriter().print("The file uploaded sucessfully. <a href=/test3dyn/index.jsp> Startseite </a>");
 	}
 
 	

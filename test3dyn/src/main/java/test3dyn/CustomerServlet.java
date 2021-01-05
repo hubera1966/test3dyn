@@ -30,7 +30,7 @@ public class CustomerServlet extends HttpServlet {
 		out.newLine();
 	}
 	pw.println("File is created successfully");
-	pw.println("<a href='http://centosm.localdomain/test3dyn/test3dyn/index.jsp'> Startseite </a>");
+	pw.println("<a href=/test3dyn/test3dyn/index.jsp> Startseite </a>");
 	}
 
 	catch (IOException e){
