@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Hello World Java EE</title>
+<title>Project test3dyn auf microk8s</title>
 </head>
 <body>
     <h1>Hallo für ein Beispiel zu JSP and Servlets auf Amazon AWS Hostname : <%= java.net.InetAddress.getLocalHost().getHostName() %></h1>
