@@ -35,7 +35,7 @@ public class HelloServlet extends HttpServlet {
 		writer.println("<h1>Hallo lieber " + yourName + "</h1>");
 		System.out.println( "Name = " + yourName );
 		writer.println("<br>");
-		writer.println("Hier habe ich ein Zahlenspiel fuer dich ... <a href=\"/test3dyn/zahlenspiel.jsp\">Zahlenspiel</a>");
+		writer.println("Hier habe ich ein Zahlenspiel fuer dich ... <a href='http://centosm.localdomain/test3dyn/zahlenspiel.jsp'>Zahlenspiel</a>");
 		writer.close();
 	}
 
